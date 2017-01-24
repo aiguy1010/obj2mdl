@@ -1,0 +1,4 @@
+#!/bin/bash
+for FILE in objs/*.obj; do
+  blender --background --python bpy_obj2mdl.py -- $FILE $(pwd)
+done
