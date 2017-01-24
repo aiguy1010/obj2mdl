@@ -15,13 +15,13 @@ Usage
 =====
 Place this folder inside the Urho3D project directory (the
 same directory that contains the `bin` folder). Place all `.obj` files that you
-would like to add to your Urho3D project into the `objs` folder, and run,
+would like to add to your Urho3D project into the `objs` folder, and, in the  
+same folder as this README, run,
 
     ./obj2mdl
 
-in the same directory as this README. Converted .mdl will then be added to your
-projects `bin/Data/Models` directory, and can be loaded into Urho3D using a
-commands like,
+Converted .mdl will then be added to your project's `bin/Data/Models` directory,
+and can be loaded into Urho3D using code like,
 
     Node* myNode = scene_->CreateChild("SampleNode");
     myNode->SetPosition( Vector3(0.0f, 0.0f, 0.0f) );
