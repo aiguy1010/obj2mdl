@@ -7,7 +7,8 @@ files and adding them to an Urho3D project.
 Requirements
 ============
 * [Blender 3D](https://www.blender.org/): This will need to be available from
-  the command-line as `blender`.
+  the command-line as `blender`. On Windows this will mean adding the Blender
+  install directory to your PATH environment variable.
 * [Urho3D Blender add-on](https://github.com/reattiva/Urho3D-Blender): Instructions
   on how to install can be found in add-on project's README
 
