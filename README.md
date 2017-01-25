@@ -18,7 +18,15 @@ same directory that contains the `bin` folder). Place all `.obj` files that you
 would like to add to your Urho3D project into the `objs` folder, and, in the  
 same folder as this README, run,
 
+Linux:
+
     ./obj2mdl
+
+
+Windows:
+
+    obj2mdl.bat
+
 
 Converted .mdl will then be added to your project's `bin/Data/Models` directory,
 and can be loaded into Urho3D using code like,
